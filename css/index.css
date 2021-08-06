@@ -65,6 +65,8 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
+/*navigation bar with image*/
 .header{
     display: flex;
     justify-content: center;
@@ -79,10 +81,13 @@ p {
     color: black;
 }
 
+/*top picture*/
 .top-picture{
    display: flex;
    justify-content: center;
 }
+
+/*top content*/
 .container {
     width: 800px;
     margin: 0 auto;
@@ -103,6 +108,7 @@ p {
     padding-bottom: 20px;  
 }
 
+/*middle content boxes*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -129,6 +135,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 #box1{
     background-color: teal;
 }
@@ -160,6 +167,7 @@ p {
     background-color: dodgerblue;
 }
 
+/*bottom content*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -174,6 +182,7 @@ p {
     padding-right: 0;
 }
 
+/*footer with navigation*/
 footer {
     width: 100%;
     background: black;
