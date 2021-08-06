@@ -71,6 +71,7 @@ p {
     justify-content: space-around;
     align-items: baseline;
     color: black;
+    padding: 1% 26.8% 2% 26.8%;
 }
 
 .header .link{
@@ -78,6 +79,10 @@ p {
     color: black;
 }
 
+.top-picture{
+   display: flex;
+   justify-content: center;
+}
 .container {
     width: 800px;
     margin: 0 auto;
