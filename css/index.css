@@ -61,14 +61,48 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
+h2.about{
+    padding: 3% 0 0 0;
+}
 
 p {
     line-height: 1.4;
 }
 
+/*navigation bar with image*/
+.header{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: baseline;
+    color: black;
+    padding: 1% 26.8% 2% 26.8%;
+}
+
+.header .link{
+    text-decoration: none;
+    color: black;
+}
+
+/*top picture*/
+.top-picture{
+   display: flex;
+   justify-content: center;
+}
+
+/*top content*/
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.top-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 3% 0;
 }
 
 .top-content {
@@ -77,6 +111,15 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding: 3% 0 0;
+}
+.top-content.about {
+    border-bottom: none;
+}
+.top-content.about .text-container{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 0;
 }
 
 .top-content .text-container {
@@ -85,6 +128,8 @@ p {
     padding-bottom: 20px;  
 }
 
+
+/*middle content boxes*/
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -112,6 +157,53 @@ p {
     justify-content: center;
 }
 
+/* learn button*/
+.learn{
+    padding: 2% 6%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 11px;
+    margin: 24px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* boxes */
+#box1{
+    background-color: teal;
+}
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
+}
+
+/*bottom content*/
+.bottom{
+    padding: 0 3% 5%;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,6 +218,7 @@ p {
     padding-right: 0;
 }
 
+/*footer with navigation*/
 footer {
     width: 100%;
     background: black;
